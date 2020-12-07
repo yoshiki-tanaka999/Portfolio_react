@@ -1,7 +1,7 @@
 .first-view {
     height: 420px;
     background-image: url(./geometric02.jpg);
-    position: relative
+    position: relative;
 }
 
 
@@ -10,7 +10,7 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
 }
 
 .first-view h1 {
