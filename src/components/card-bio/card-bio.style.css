@@ -1,0 +1,51 @@
+.card-bio-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #95dada; */
+    /* border: 1px solid grey; */
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    border-radius: 5px;
+    /* padding: 10px; */
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-bio-container:hover {
+    transform: scale(1.05);
+}
+
+.card-bio-container iframe {
+    height: 200px;
+}
+
+.card-bio-container h2 {
+    font-family: 'Sansita Swashed';
+    font-size: 24px;
+    margin: 16px;
+    text-align: left;
+}
+
+.card-bio-container h3 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 2px 16px;
+    text-align: left;
+}
+
+.card-bio-container p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin: 8px 16px;
+    text-align: left;
+}
+
+
+img {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
