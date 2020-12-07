@@ -13,6 +13,12 @@ p {
   font-size: 36px;
   color: #e9f0f0;
 }
+a {
+  font-family: 'Bigelow Rules';
+  font-size: 36px;
+  color: #e9f0f0;
+  text-decoration: none;
+}
 
 .App-logo {
   height: 40vmin;

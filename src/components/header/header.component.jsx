@@ -5,10 +5,10 @@ import './header.style.css';
 
 export const Header = () => (
     <div className='header'>
-        <AnchorLink href='#products' offset="50">Products</AnchorLink>
-        <AnchorLink href='#biography' offset="50">Biography</AnchorLink>
-        <AnchorLink href='#skills' offset="50">Skills</AnchorLink>
-        <AnchorLink href='#contact' offset="50">Contact</AnchorLink>
-        <AnchorLink href='#aboutme' offset="50">About me</AnchorLink>
+        <AnchorLink href='#products' offset="100">Products</AnchorLink>
+        <AnchorLink href='#biography' offset="100">Biography</AnchorLink>
+        <AnchorLink href='#skills' offset="100">Skills</AnchorLink>
+        <AnchorLink href='#contact' offset="100">Contact</AnchorLink>
+        <AnchorLink href='#aboutme' offset="100">About me</AnchorLink>
     </div>
 );
