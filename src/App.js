@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Header } from './components/header/header.component';
 import { FirstView } from './components/first-view/first-view.component';
 import { CardList } from './components/card-list/card-list.component';
-
+import { Skill } from './components/skill/skill.component';
 
 
 import { Footer } from './components/footer/footer.component';
@@ -19,28 +19,31 @@ class App extends Component {
     this.state = {
       string: 'My Portfolio',
       monsters:[],
-      searchField:''
+      products:[
+        { id: 1, name: 'Hello Diff.s', url:'https://player.vimeo.com/video/488196210', description:'価値観の固定化や分断を解決するディスカッションサービス' },
+        { id: 2, name: 'Lab9 Atelier', url:'', description:'コミュニティ内のアウトプットを個人ごとに管理・シェアできるプロダクト' },
+        { id: 3, name: 'リトルトゥースチャンネル', url:'', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好き。' },
+      ],
+      biographies:[]
     };
   }
 
   // マウントするときに、setState()で、this.state.monstersの中身を、jsonで取得及び、格納する
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      // .then(users => console.log(users));
-      .then(users => this.setState({ monsters: users}));
-  }
+  // componentDidMount() {
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(response => response.json())
+  //     // .then(users => console.log(users));
+  //     .then(users => this.setState({ monsters: users}));
+  // }
 
   // Viewみたいなもんか
   render() {
-    const { monsters, searchField } = this.state;
-    const filteredMonsters = monsters.filter( monster =>
-      monster.name.toLowerCase().includes(searchField.toLowerCase())
-      );
+    // const { monsters } = this.state;
+    const { products } = this.state;
+    const { biographies } = this.state;
 
     return(
       <div className="App">
-
 
         <Header /> 
         <FirstView /> 
@@ -48,17 +51,17 @@ class App extends Component {
         {/* propsでcard-listに値を渡す */}
         {/* ↓↓ Products ↓↓ */}
         <h1 id='products'> Products </h1>
-        <CardList monsters= { filteredMonsters }/> 
+        <CardList products= { products }/> 
         {/* ↑↑ Products ↑↑ */}
 
         {/* ↓↓ Biography ↓↓ */}
         <h1 id='biography'> Biography </h1>
-        <CardList monsters= { filteredMonsters }/> 
+        {/* <CardList products= { products }/>  */}
         {/* ↑↑ Biography ↑↑ */}
 
         {/* ↓↓ Skills ↓↓ */}
         <h1 id='skills'> Skills </h1>
-        <p> Collection of works </p>
+        <Skill /> 
         {/* ↑↑ Skills ↑↑ */}
 
         {/* ↓↓ Contacts ↓↓ */}
