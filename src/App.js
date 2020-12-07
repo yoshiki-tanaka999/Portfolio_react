@@ -4,6 +4,10 @@ import { Header } from './components/header/header.component';
 import { FirstView } from './components/first-view/first-view.component';
 import { CardList } from './components/card-list/card-list.component';
 
+
+
+import { Footer } from './components/footer/footer.component';
+
 // import logo from './logo.svg';
 import './App.css';
 
@@ -37,16 +41,9 @@ class App extends Component {
     return(
       <div className="App">
 
-        {/* ↓↓ Header ↓↓ */}
+
         <Header /> 
-
-        {/* ↑↑ Header ↑↑ */}
-
-
-        {/* ↓↓ First View ↓↓ */}
         <FirstView /> 
-        {/* ↑↑ First View ↑↑ */}
-
 
         {/* propsでcard-listに値を渡す */}
         {/* ↓↓ Products ↓↓ */}
@@ -74,6 +71,9 @@ class App extends Component {
         <h1 id='aboutme'> About me </h1>
         <p> 田中喜規 </p>
         {/* ↑↑ About me ↑↑ */}        
+
+        <Footer /> 
+        <p> © Yoshiki Tanaka </p>
 
       </div>
     );
