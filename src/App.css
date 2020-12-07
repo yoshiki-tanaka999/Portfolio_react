@@ -5,7 +5,13 @@
 h1 {
   font-family: 'Bigelow Rules';
   font-size: 72px;
-  color: #0ccac4;
+  color: #e9f0f0;
+}
+
+p {
+  font-family: 'Bigelow Rules';
+  font-size: 36px;
+  color: #e9f0f0;
 }
 
 .App-logo {

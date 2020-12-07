@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
+import { Header } from './components/header/header.component';
+import { FirstView } from './components/first-view/first-view.component';
 import { CardList } from './components/card-list/card-list.component';
-// import { SearchBox } from './components/search-box/search-box.component';
 
 // import logo from './logo.svg';
 import './App.css';
@@ -11,7 +13,7 @@ class App extends Component {
     super();
 
     this.state = {
-      string: 'Hello Diff.s',
+      string: 'My Portfolio',
       monsters:[],
       searchField:''
     };
@@ -34,16 +36,45 @@ class App extends Component {
 
     return(
       <div className="App">
-        <h1> Monster Rolodex </h1>
-        {/* <SearchBox
-          placeholder= 'search monsters'
-          handleChange= {e =>this.setState({ searchField: e.target.value }) }
-        /> */}
-        {/* propsでcard-listに値を渡す */}
-        <CardList monsters= { filteredMonsters }/> 
 
-        {/* フィルターなしバージョン */}
-        {/* <CardList monsters= { this.state.monsters }/>  */}  
+        {/* ↓↓ Header ↓↓ */}
+        <Header /> 
+
+        {/* ↑↑ Header ↑↑ */}
+
+
+        {/* ↓↓ First View ↓↓ */}
+        <FirstView /> 
+        {/* ↑↑ First View ↑↑ */}
+
+
+        {/* propsでcard-listに値を渡す */}
+        {/* ↓↓ Products ↓↓ */}
+        <h1 id='products'> Products </h1>
+        <CardList monsters= { filteredMonsters }/> 
+        {/* ↑↑ Products ↑↑ */}
+
+        {/* ↓↓ Biography ↓↓ */}
+        <h1 id='biography'> Biography </h1>
+        <CardList monsters= { filteredMonsters }/> 
+        {/* ↑↑ Biography ↑↑ */}
+
+        {/* ↓↓ Skills ↓↓ */}
+        <h1 id='skills'> Skills </h1>
+        <p> Collection of works </p>
+        {/* ↑↑ Skills ↑↑ */}
+
+        {/* ↓↓ Contacts ↓↓ */}
+        <h1 id='contact'> Contact </h1>
+        <p> ご気軽にご連絡下さい。 </p>
+
+        {/* ↑↑ Contacts ↑↑ */}
+
+        {/* ↓↓ About me ↓↓ */}
+        <h1 id='aboutme'> About me </h1>
+        <p> 田中喜規 </p>
+        {/* ↑↑ About me ↑↑ */}        
+
       </div>
     );
   }
