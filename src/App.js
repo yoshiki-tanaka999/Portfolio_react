@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 import { Header } from './components/header/header.component';
 import { FirstView } from './components/first-view/first-view.component';
 import { CardList } from './components/card-list/card-list.component';
+import { CardListBio } from './components/card-list-bio/card-list-bio.component';
 import { Skill } from './components/skill/skill.component';
 import { Contact } from './components/contact/contact.component';
+import { AboutMe } from './components/about-me/about-me.component';
 
 
 import { Footer } from './components/footer/footer.component';
@@ -19,15 +21,18 @@ class App extends Component {
 
     this.state = {
       string: 'My Portfolio',
-      monsters:[],
       products:[
         { id: 1, name: 'Hello Diff.s', url:'https://player.vimeo.com/video/488196210', language:'#Vue.js #Laravel', description:'価値観の固定化や分断を解決するディスカッションサービス' },
         { id: 2, name: 'Lab9 Atelier', url:'', language:'#Laravel', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
         { id: 3, name: 'リトルトゥースチャンネル', url:'', language:'#HTML/CSS #Javascript', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
       ],
-      biographies:[]
-    };
+      biographies:[
+        { id: 1, name: '我が闘争~学生時代編~', url:'https://player.vimeo.com/video/488196210', description:'価値観の固定化や分断を解決するディスカッションサービス' },
+        { id: 2, name: '我が闘争~MEJ編~', url:'', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
+        { id: 3, name: "我が闘争~G's ACADEMY編~", url:'', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
+      ]
   }
+}
 
   // マウントするときに、setState()で、this.state.monstersの中身を、jsonで取得及び、格納する
   // componentDidMount() {
@@ -57,7 +62,8 @@ class App extends Component {
 
         {/* ↓↓ Biography ↓↓ */}
         <h1 id='biography'> Biography </h1>
-        <CardList products= { products }/> 
+        {/* <CardList products= { products }/>  */}
+        <CardListBio biographies= { biographies }/>         
         {/* ↑↑ Biography ↑↑ */}
 
         {/* ↓↓ Skills ↓↓ */}
@@ -71,8 +77,9 @@ class App extends Component {
         {/* ↑↑ Contacts ↑↑ */}
 
         {/* ↓↓ About me ↓↓ */}
-        <h1 id='aboutme'> About me </h1>
-        <p> 田中喜規 </p>
+        <h1 id='skills'> About me </h1>
+        <AboutMe /> 
+
         {/* ↑↑ About me ↑↑ */}        
 
         <Footer /> 

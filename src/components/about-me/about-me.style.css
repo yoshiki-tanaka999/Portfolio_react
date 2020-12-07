@@ -1,0 +1,46 @@
+.about-me {
+    width: 960px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.about-me-img {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    margin: 0 24px;
+}
+
+.about-me-content {
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 24px;
+}
+
+.about-me-content h2 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin:12px 0 16px 0;
+}
+
+.about-me-content h3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin:16px 0 16px 0;
+}
+
+.about-me-content p {
+    font-family: 'Roboto';
+    text-align: left;
+    margin: 4px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
