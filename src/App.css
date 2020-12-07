@@ -3,20 +3,24 @@
 }
 
 h1 {
-  font-family: 'Bigelow Rules';
+  font-family: 'Sansita Swashed';
   font-size: 72px;
-  color: #e9f0f0;
+  color: #282c34;
+  margin: 80px auto;
+  /* color: #e9f0f0; */
 }
 
 p {
-  font-family: 'Bigelow Rules';
+  font-family: 'Sansita Swashed';
   font-size: 36px;
-  color: #e9f0f0;
+  color: #282c34;
+  /* color: #e9f0f0; */
 }
 a {
-  font-family: 'Bigelow Rules';
+  font-family: 'Sansita Swashed';
   font-size: 36px;
-  color: #e9f0f0;
+  /* color: #e9f0f0; */
+  color: #282c34;
   text-decoration: none;
   margin: auto 24px;
 }

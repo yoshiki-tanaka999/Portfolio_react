@@ -16,4 +16,7 @@
     transform: translate(-50%, -50%);
 }
 
+.header-content a {
+    font-size: 24px;
+}
 

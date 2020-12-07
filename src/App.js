@@ -4,6 +4,7 @@ import { Header } from './components/header/header.component';
 import { FirstView } from './components/first-view/first-view.component';
 import { CardList } from './components/card-list/card-list.component';
 import { Skill } from './components/skill/skill.component';
+import { Contact } from './components/contact/contact.component';
 
 
 import { Footer } from './components/footer/footer.component';
@@ -20,9 +21,9 @@ class App extends Component {
       string: 'My Portfolio',
       monsters:[],
       products:[
-        { id: 1, name: 'Hello Diff.s', url:'https://player.vimeo.com/video/488196210', description:'価値観の固定化や分断を解決するディスカッションサービス' },
-        { id: 2, name: 'Lab9 Atelier', url:'', description:'コミュニティ内のアウトプットを個人ごとに管理・シェアできるプロダクト' },
-        { id: 3, name: 'リトルトゥースチャンネル', url:'', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好き。' },
+        { id: 1, name: 'Hello Diff.s', url:'https://player.vimeo.com/video/488196210', language:'#Vue.js #Laravel', description:'価値観の固定化や分断を解決するディスカッションサービス' },
+        { id: 2, name: 'Lab9 Atelier', url:'', language:'#Laravel', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
+        { id: 3, name: 'リトルトゥースチャンネル', url:'', language:'#HTML/CSS #Javascript', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
       ],
       biographies:[]
     };
@@ -56,7 +57,7 @@ class App extends Component {
 
         {/* ↓↓ Biography ↓↓ */}
         <h1 id='biography'> Biography </h1>
-        {/* <CardList products= { products }/>  */}
+        <CardList products= { products }/> 
         {/* ↑↑ Biography ↑↑ */}
 
         {/* ↓↓ Skills ↓↓ */}
@@ -65,8 +66,7 @@ class App extends Component {
         {/* ↑↑ Skills ↑↑ */}
 
         {/* ↓↓ Contacts ↓↓ */}
-        <h1 id='contact'> Contact </h1>
-        <p> ご気軽にご連絡下さい。 </p>
+        <Contact /> 
 
         {/* ↑↑ Contacts ↑↑ */}
 
