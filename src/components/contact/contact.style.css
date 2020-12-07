@@ -1,11 +1,11 @@
-.first-view {
-    height: 420px;
+.contact {
+    height: 360px;
     background-image: url(./geometric02.jpg);
     position: relative;
+    margin-top: 45px;
 }
 
-
-.first-view-content {
+.contact-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -13,16 +13,16 @@
     transform: translate(-50%, -50%);
 }
 
-.first-view h1 {
-    /* font-family: 'Bigelow Rules'; */
-    font-size: 96px;
+.contact h1 {
+    font-family: 'Sansita Swashed';
+    font-size: 72px;
     color: #010c0c;
     margin: 30px auto;
 }
 
-.first-view p {
-    /* font-family: 'Bigelow Rules'; */
-    font-size: 48px;
+.contact p {
+    font-family: 'Roboto';
+    font-size: 36px;
     color: #010c0c;
     margin: 30px auto;
 }

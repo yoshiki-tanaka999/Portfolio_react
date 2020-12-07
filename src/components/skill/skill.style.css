@@ -10,9 +10,14 @@
 
 .skill-content h2 {
     text-align: left;
+    font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .skill-content p {
+    font-family: 'Roboto';
     text-align: left;
+    margin-top: 12px;
+    font-size: 24px;
 }
 
