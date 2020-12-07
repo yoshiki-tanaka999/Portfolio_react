@@ -4,12 +4,10 @@ import './card.style.css';
 
 export const Card = props => (
     <div className='card-container'>
-        <img
-            alt="monster" 
-            src={`https://robohash.org/${props.monster.id}?set=set2`}
-        />
-        <h2>{ props.monster.name }</h2>
-        <p>{ props.monster.email }</p>
+        {/* <iframe title="vimeo-player" src="{ props.product.url }" width="100%" height="280" frameBorder="0" allowFullScreen></iframe> */}
+        <iframe title="vimeo-player" src={ props.product.url } width="100%" height="300" frameBorder="0" allowFullScreen></iframe>
+        <h2>{ props.product.name }</h2>
+        <p>{ props.product.description }</p>
     </div>
 );
 
