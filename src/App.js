@@ -8,6 +8,7 @@ import { Skill } from './components/skill/skill.component';
 import { Contact } from './components/contact/contact.component';
 import { AboutMe } from './components/about-me/about-me.component';
 
+// import  { Image01 } from './components/card-bio/thumbnail01.jpeg';
 
 import { Footer } from './components/footer/footer.component';
 
