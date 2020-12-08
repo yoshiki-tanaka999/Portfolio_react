@@ -2,7 +2,7 @@ import React from 'react';
 
 import './card.style.css';
 
-export const Card = props => (
+export const Card02 = props => (
     <div className='card-container'>
         <iframe title="vimeo-player" src={ props.product.url } width="100%" height="300" allowFullScreen></iframe>
         <h2>{ props.product.name }</h2>

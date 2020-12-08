@@ -8,21 +8,6 @@ import { CardBio03 } from '../card-bio/card-bio03.component';
 import './card-list-bio.style.css';
 
 
-// export const CardListBio = props => (
-//     <div className='card-list-bio'>
-//         {props.biographies.map(biography => (
-//             console.log(biographies)
-//             ({ biography.id } === 1) ? (
-//                 <CardBio01 key= {biography.id} biography={ biography }/>
-//             ):({biography.id} === 2) ? (
-//                 <CardBio02 key= {biography.id} biography={ biography }/>                
-//             ):({biography.id} === 3) ? (
-//                 <CardBio03 key= {biography.id} biography={ biography }/>  
-//             ): console.log('エラー')
-//         ))}
-//     </div>
-// );
-
 export const CardListBio = props => (
     <div className='card-list-bio'>
         {/* {console.log(props.biographies[0])} */}
