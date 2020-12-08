@@ -1,8 +1,13 @@
 .contact {
     height: 360px;
-    background-image: url(./geometric02.jpg);
+    /* background-image: url(./geometric02.jpg); */
     position: relative;
     margin-top: 80px;
+    background: linear-gradient(
+        to left,
+        rgba(7, 27, 82, 1) 0%,
+        rgb(20, 1, 71) 100%
+    );
 }
 
 .contact-content {
@@ -16,13 +21,15 @@
 .contact h1 {
     font-family: 'Sansita Swashed';
     font-size: 72px;
-    color: #010c0c;
+    /* color: #010c0c; */
+    color: #f0f8ff;
     margin: 30px auto;
 }
 
 .contact p {
     font-family: 'Roboto';
     font-size: 36px;
-    color: #010c0c;
+    /* color: #010c0c; */
+    color: #f0f8ff;
     margin: 30px auto;
 }

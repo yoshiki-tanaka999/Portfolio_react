@@ -1,7 +1,12 @@
 .first-view {
     height: 420px;
-    background-image: url(./geometric02.jpg);
+    /* background-image: url(./black.jpg); */
     position: relative;
+    background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgb(20, 1, 71) 100%
+    );
 }
 
 
@@ -16,13 +21,15 @@
 .first-view h1 {
     /* font-family: 'Bigelow Rules'; */
     font-size: 96px;
-    color: #010c0c;
+    /* color: #010c0c; */
+    color: #f0f8ff;
     margin: 30px auto;
 }
 
 .first-view p {
     /* font-family: 'Bigelow Rules'; */
     font-size: 48px;
-    color: #010c0c;
+    /* color: #010c0c; */
+    color: #f0f8ff;
     margin: 30px auto;
 }

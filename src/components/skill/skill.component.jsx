@@ -18,7 +18,7 @@ export const Skill = () => (
             <p>#Vue.js #Laravel #React(勉強中)</p>
 
             <h2>■DB</h2>
-            <p>#MyMySQL #Firebase</p>
+            <p>#MySQL #Firebase</p>
         </div>
 
     </div>
