@@ -10,7 +10,7 @@ export const Skill = () => (
             G's ACADEMY(スクール)の卒業制作にて、Vue.js/Laravelを用いた、プロダクトの開発を行いました。</p>
 
             <h2>■言語</h2>
-            <p>#HTML/CSS  #Javascript #PHP</p>
+            <p>#HTML #CSS #Javascript #PHP</p>
 
             <h2>■フレームワーク</h2>
             <p>#Vue.js #Laravel #React(勉強中)</p>

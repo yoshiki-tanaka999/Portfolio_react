@@ -10,6 +10,10 @@ h1 {
   /* color: #e9f0f0; */
 }
 
+h4 {
+  margin: 12px auto 20px;
+}
+
 p {
   font-family: 'Roboto';
   font-size: 16px;
@@ -59,3 +63,16 @@ a {
     transform: rotate(360deg);
   }
 }
+
+#footer-end {
+  width: 1440px;
+  height: 40px;
+  background-color: #282c34;
+}
+
+#footer-end p {
+  font-family: 'Roboto';
+  color: #f0f8ff;
+  margin: 0 auto;
+}
+
