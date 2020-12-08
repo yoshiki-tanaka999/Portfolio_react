@@ -7,7 +7,9 @@ export const Skill = () => (
         <div className='skill-content'>
             <h2>■概要</h2>
             <p>Javascript/PHPをメインに学習していました。<br/>
-            G's ACADEMY(スクール)の卒業制作にて、Vue.js/Laravelを用いた、プロダクトの開発を行いました。</p>
+            G's ACADEMY(スクール)の卒業制作にて、Vue.js/Laravelを用いた、プロダクトの開発を行いました。
+            ちなみに、本ポートフォリオは学習の一環でReactで作成してみました。
+            </p>
 
             <h2>■言語</h2>
             <p>#HTML #CSS #Javascript #PHP</p>

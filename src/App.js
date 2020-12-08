@@ -28,9 +28,9 @@ class App extends Component {
         { id: 3, name: 'リトルトゥースチャンネル', url:'https://player.vimeo.com/video/488334255', language:'#HTML #CSS #Javascript', description:'Gs ACADEMYでHTML/CSSを勉強して、1週間で制作した完全にネタの処女作。日向坂46とオードリー大好きです。' },
       ],
       biographies:[
-        { id: 1, name: '我が闘争~学生時代編~', img:'https://drive.google.com/file/d/1dYs97MlQSdIAFpB_bNdfBYRZqQcUkFJB/view?usp=sharing', url:'https://drive.google.com/file/d/156dIQhnX_E1XRX5X561Ilfrl0oxFfheq/view?usp=sharing', description:'価値観の固定化や分断を解決するディスカッションサービス' },
-        { id: 2, name: '我が闘争~MEJ編~', img:'', url:'https://drive.google.com/file/d/1SJ65FIuDMEXQ7_Mv4Nvk_XhuAgb-xWAv/view?usp=sharing', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクトをチームで作成しました。' },
-        { id: 3, name: "我が闘争~G's ACADEMY編~",img:'', url:'https://drive.google.com/file/d/1ikTXvwn8H6XNiR9uT5CqkJIPIZEfdNC3/view?usp=sharing', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
+        { id: 1, name: '我が闘争~学生時代編~', img:'https://drive.google.com/file/d/1dYs97MlQSdIAFpB_bNdfBYRZqQcUkFJB/view?usp=sharing', url:'https://drive.google.com/file/d/156dIQhnX_E1XRX5X561Ilfrl0oxFfheq/view?usp=sharing', description:'現在の私の考え方や生き方の原点となる出来事を中心にまとめています。内定を頂いた大学3年辺りまでの伝記です。' },
+        { id: 2, name: '我が闘争~MEJ編~', img:'', url:'https://drive.google.com/file/d/1SJ65FIuDMEXQ7_Mv4Nvk_XhuAgb-xWAv/view?usp=sharing', description:'組織崩壊をしたMEJでの出来事を中心にまとめています。社会人としてのマインドセットの原点だとと思います。' },
+        { id: 3, name: "我が闘争~G's ACADEMY編~",img:'', url:'https://drive.google.com/file/d/1ikTXvwn8H6XNiR9uT5CqkJIPIZEfdNC3/view?usp=sharing', description:'コロナという特殊な状況の中、(オンラインで)半年間通ったGs ACADEMYについての備忘録兼反省のまとめです。' },
       ]
   }
 }
