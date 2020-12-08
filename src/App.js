@@ -24,12 +24,12 @@ class App extends Component {
       products:[
         { id: 1, name: 'Hello Diff.s', url:'https://player.vimeo.com/video/488196210', language:'#Vue.js #Laravel', description:'価値観の固定化や分断を解決するディスカッションサービス' },
         { id: 2, name: 'Lab9 Atelier', url:'', language:'#Laravel', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
-        { id: 3, name: 'リトルトゥースチャンネル', url:'', language:'#HTML/CSS #Javascript', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
+        { id: 3, name: 'リトルトゥースチャンネル', url:'https://player.vimeo.com/video/488334255', language:'#HTML/CSS #Javascript', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
       ],
       biographies:[
-        { id: 1, name: '我が闘争~学生時代編~', url:'https://player.vimeo.com/video/488196210', description:'価値観の固定化や分断を解決するディスカッションサービス' },
-        { id: 2, name: '我が闘争~MEJ編~', url:'', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
-        { id: 3, name: "我が闘争~G's ACADEMY編~", url:'', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
+        { id: 1, name: '我が闘争~学生時代編~', img:'https://drive.google.com/file/d/1dYs97MlQSdIAFpB_bNdfBYRZqQcUkFJB/view?usp=sharing', url:'https://drive.google.com/file/d/156dIQhnX_E1XRX5X561Ilfrl0oxFfheq/view?usp=sharing', description:'価値観の固定化や分断を解決するディスカッションサービス' },
+        { id: 2, name: '我が闘争~MEJ編~', img:'', url:'https://drive.google.com/file/d/1SJ65FIuDMEXQ7_Mv4Nvk_XhuAgb-xWAv/view?usp=sharing', description:'コミュニティ内の作品を個人ごとに管理・シェアできるプロダクト' },
+        { id: 3, name: "我が闘争~G's ACADEMY編~",img:'', url:'https://drive.google.com/file/d/1ikTXvwn8H6XNiR9uT5CqkJIPIZEfdNC3/view?usp=sharing', description:'Gs ACADEMYでHTML/CSSを勉強して、制作した処女作。オードリー大好きです。' },
       ]
   }
 }
@@ -61,7 +61,7 @@ class App extends Component {
         {/* ↑↑ Products ↑↑ */}
 
         {/* ↓↓ Biography ↓↓ */}
-        <h1 id='biography'> Biography </h1>
+        <h1 id='biography'> Biographies </h1>
         {/* <CardList products= { products }/>  */}
         <CardListBio biographies= { biographies }/>         
         {/* ↑↑ Biography ↑↑ */}
@@ -73,13 +73,11 @@ class App extends Component {
 
         {/* ↓↓ Contacts ↓↓ */}
         <Contact /> 
-
         {/* ↑↑ Contacts ↑↑ */}
 
         {/* ↓↓ About me ↓↓ */}
         <h1 id='skills'> About me </h1>
         <AboutMe /> 
-
         {/* ↑↑ About me ↑↑ */}        
 
         <Footer /> 
