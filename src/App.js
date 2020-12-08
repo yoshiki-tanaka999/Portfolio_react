@@ -27,7 +27,7 @@ class App extends Component {
           name: 'Hello Diff.s', 
           url:'https://player.vimeo.com/video/488196210', 
           language:'#Vue.js #Laravel', 
-          description:'価値観の固定化や分断を解決するディスカッションサービス。私の価値観を表出させた文字通りの我が子です。' 
+          description:'価値観の固定化や分断を解決するディスカッションサービス。私の価値観を表出させた文字通り、大切な我が子です。' 
         },
         { id: 2, 
           name: 'Lab9 Atelier', 
