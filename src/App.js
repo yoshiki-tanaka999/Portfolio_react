@@ -58,13 +58,19 @@ class App extends Component {
         {/* propsでcard-listに値を渡す */}
         {/* ↓↓ Products ↓↓ */}
         <h1 id='products'> Products </h1>
+        
+        <div id='products-text'>
+          <h4>サクッと動画を見たい方は、「サムネイル」をクリック！</h4>
+          <h4>プロダクトをしっかり見たい方は、「タイトル」をクリック！</h4>        
+        </div>
+
         <CardList products= { products }/> 
         {/* ↑↑ Products ↑↑ */}
 
         {/* ↓↓ Biography ↓↓ */}
         <h1 id='biographies'> Biographies </h1>
         
-        <div>
+        <div id='biographies-text'>
           <h4>人生の足跡を残したいという想いから、「我が闘争」というこれまでの人生の伝記を作成しています。</h4>
           <h4>それぞれ、70〜130Pありますので、お読みになる際は、心してかかって下さい。</h4>        
         </div>
