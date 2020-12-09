@@ -18,7 +18,7 @@ export const CardList = props => (
     <div className='card-list'>
         {/* {console.log(props.biographies[0])} */}
         <Card01 key= {props.products[0].id} product={ props.products[0] }/>
-        <Card02 key= {props.products[1].id} product={ props.products[1] }/>               
+        {/* <Card02 key= {props.products[1].id} product={ props.products[1] }/>                */}
         <Card03 key= {props.products[2].id} product={ props.products[2] }/>  
     </div>
 );
