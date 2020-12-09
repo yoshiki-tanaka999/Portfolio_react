@@ -46,7 +46,7 @@ class App extends Component {
         { id: 1, 
           name: '我が闘争~学生時代編~', 
           img:'https://drive.google.com/file/d/1dYs97MlQSdIAFpB_bNdfBYRZqQcUkFJB/view?usp=sharing', 
-          url:'https://drive.google.com/file/d/156dIQhnX_E1XRX5X561Ilfrl0oxFfheq/view?usp=sharing', 
+          url:'https://drive.google.com/file/d/156dIQhnX_E1XRX5X561Ilfrl0oxFfheq/view?usp=sharing',       
           description:'現在の私の考え方や生き方の原点となる出来事を中心にまとめています。内定を頂いた大学3年辺りまでの伝記です。' 
         },
         { id: 2, 
